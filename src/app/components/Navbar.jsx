@@ -10,16 +10,46 @@ const navLinks = [
   {
     title: 'About',
     path: '#about',
+    external: false,
   },
   {
     title: 'Projects',
     path: '#projects',
+    external: false,
   },
+  {
+    title: 'Blogs',
+    path: 'https://blog.pratikupreti.tech/',
+    external: true,
+  },
+  ,
   {
     title: 'Contact',
     path: '#contact',
+    external: false,
   },
 ]
+// Inside NavLink.js
+const NavLinking = ({ href, title, external }) => {
+  if (external) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="nav-link-styles"
+      >
+        {title}
+      </a>
+    )
+  }
+
+  return (
+    <Link href={href}>
+      <a className="nav-link-styles">{title}</a>
+    </Link>
+  )
+}
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -60,7 +90,11 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <NavLink
+                  href={link.path}
+                  title={link.title}
+                  external={link.external}
+                />
               </li>
             ))}
           </ul>

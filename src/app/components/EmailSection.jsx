@@ -84,7 +84,7 @@ const EmailSection = () => {
                 type="text"
                 id="name"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] focus:border-purple-500 placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Jacob Smith"
               />
             </div>
@@ -116,7 +116,7 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] focus:border-purple-500 placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Just saying hey!"
               />
             </div>

@@ -82,8 +82,8 @@ const TAB_DATA = [
           <p className="text-gray-600">Stevens Institute of Technology</p>
           {/* <p className="text-sm text-gray-500">2019 - 2021</p> */}
           <p className="mt-2 text-gray-700">
-            Key Coursework: Advanced Algorithms, Data Structures, Machine
-            Learning, Cloud Computing
+            <b> Key Coursework:</b> Advanced Algorithms, Data Structures,
+            Machine Learning, Cloud Computing
           </p>
           {/* <p className="mt-1 text-gray-700">
             {'Thesis: "Exploring the Impact of AI on Software Development"'}
@@ -97,8 +97,8 @@ const TAB_DATA = [
           <p className="text-gray-600">Nirma University</p>
           {/* <p className="text-sm text-gray-500">2015 - 2019</p> */}
           <p className="mt-2 text-gray-700">
-            Key Coursework: Intro to Programming, Operating Systems, Web
-            Development
+            <b> Key Coursework:</b> Intro to Programming, Operating Systems,
+            Java, Computer Networks, Database Management Systems
           </p>
           {/* <p className="mt-1 text-gray-700">
             {
