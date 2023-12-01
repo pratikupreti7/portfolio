@@ -91,7 +91,7 @@ export async function POST(req, res) {
 
   try {
     const data = await resend.emails.send({
-      from: fromEmail,
+      from: `Pratik Upreti <${fromEmail}>`,
       to: [fromEmail, email],
       subject: subject,
       html: emailHtml, // Send HTML content

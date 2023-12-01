@@ -115,17 +115,39 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          <a href="LINK_TO_AWS_CERT" target="_blank" rel="noopener noreferrer">
-            AWS Cloud Practitioner
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:6817800907296653312/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Microsoft Ceritifed Azure Fundamentals : AZ-900
           </a>
         </li>
         <li>
           <a
-            href="LINK_TO_GOOGLE_CLOUD_CERT"
+            href="https://www.linkedin.com/in/pratikupreti/details/featured/1598207455494/single-media-viewer?type=DOCUMENT&profileId=ACoAACNF_7IBLmBQuxLlgUACTP--LS7dHldAFew&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_featured_details%3B7xBMUWzbQ1aRjLU9DA0e5Q%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Professional Cloud Developer
+            Business Analysis -Short Course from Charles Sturt Univeristy
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.credly.com/badges/b3209357-149a-4418-913a-1eca2194caff"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Data Science Certified : Issued by Coursera ; Authorized by IBM
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.udemy.com/certificate/UC-1caf9a0d-4b61-4232-9e48-50eea41e1202/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Springboot Mastery : Issued by Udemy
           </a>
         </li>
       </ul>
