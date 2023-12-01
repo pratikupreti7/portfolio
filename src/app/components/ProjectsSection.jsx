@@ -82,7 +82,7 @@ const projectsData = [
     title: 'Yumify :React Js Resturant Cart Functionalities',
     description:
       'Frontend foucsed website for Resturant to display menues and cart functionalities',
-    image: '/images/projects/13.png',
+    image: '/images/projects/14.png',
     tag: ['All', 'React', 'Tailwind CSS'],
     gitUrl: 'https://github.com/pratikupreti7/yumify',
     previewUrl: 'https://www.youtube.com/watch?v=vyjA5dwqQpg',
@@ -92,7 +92,7 @@ const projectsData = [
     id: 13,
     title: 'Couch Potato ',
     description: 'Full Stack Movie Rating and Comments App',
-    image: '/images/projects/14.png',
+    image: '/images/projects/13.png',
     tag: ['All', 'Full Stack', 'React', 'Tailwind CSS', 'Nodejs', 'Databases'],
     gitUrl: 'https://github.com/pratikupreti7/couchpotato',
     // previewUrl: 'https://pratikupreti7.github.io/webpage-portfolio/',
@@ -104,7 +104,7 @@ const projectsData = [
     title: 'Twitter Clone using NextJs',
     description:
       'FullStack Twitter Clone that allows users to create and post tweets, follow other users, like, and view their own profile and the profiles of other users.',
-    image: '/images/projects/15.png',
+    image: '/images/projects/18.png',
     tag: ['All', 'Full Stack', 'NextJs', 'Tailwind CSS', 'Nodejs', 'Databases'],
     gitUrl: 'https://github.com/pratikupreti7/twitter-clone',
     // previewUrl: 'https://pratikupreti7.github.io/webpage-portfolio/',
