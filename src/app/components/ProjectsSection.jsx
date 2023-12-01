@@ -139,7 +139,7 @@ const projectsData = [
     status: 'completed',
   },
   {
-    id: 12,
+    id: 20,
     title: 'Yum : Food Ordering Website using Django',
     description: 'Django based website for Resturant',
     image: '/images/projects/11.png',
@@ -187,7 +187,7 @@ const projectsData = [
     status: 'completed',
   },
   {
-    id: 11,
+    id: 100,
     title: 'Single Page Portfolio Website ',
     description: 'Responsive Portfolio Website using HTML/CSS',
     image: '/images/projects/12.png',
