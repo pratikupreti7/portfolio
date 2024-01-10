@@ -5,32 +5,49 @@ import NavLink from './NavLink'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
+import { GitHub } from '@mui/icons-material'
 
 const navLinks = [
   {
     title: 'About',
     path: '#about',
     external: false,
+    hasIcon: false,
   },
   {
     title: 'Projects',
     path: '#projects',
     external: false,
+    hasIcon: false,
+  },
+  {
+    title: ' Github',
+    path: 'https://github.com/pratikupreti7',
+    external: true,
+    hasIcon: true,
   },
   {
     title: 'Blogs',
     path: 'https://blog.pratikupreti.tech/',
     external: true,
+    hasIcon: false,
   },
-  ,
   {
     title: 'Contact',
     path: '#contact',
     external: false,
+    hasIcon: false,
   },
 ]
 // Inside NavLink.js
-const NavLinking = ({ href, title, external }) => {
+const NavLinking = ({ href, title, external, hasIcon }) => {
+  const content = (
+    <>
+      {hasIcon && <GitHub />} {/* Conditionally render icon */}
+      {title}
+    </>
+  )
+
   if (external) {
     return (
       <a
@@ -39,14 +56,14 @@ const NavLinking = ({ href, title, external }) => {
         rel="noopener noreferrer"
         className="nav-link-styles"
       >
-        {title}
+        {content}
       </a>
     )
   }
 
   return (
     <Link href={href}>
-      <a className="nav-link-styles">{title}</a>
+      <a className="nav-link-styles">{content}</a>
     </Link>
   )
 }
@@ -94,6 +111,7 @@ const Navbar = () => {
                   href={link.path}
                   title={link.title}
                   external={link.external}
+                  hasIcon={link.hasIcon}
                 />
               </li>
             ))}
